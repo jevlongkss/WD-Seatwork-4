@@ -6,10 +6,10 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/441226421_988503285592567_2443689800431697679_n__1_-removebg-preview.png" alt="Jv Logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 4 - Feature Display </h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -19,7 +19,9 @@
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
+jevlongkss
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
+WD-Seatwork 4
 ![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
 
 ---
@@ -60,17 +62,19 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project - Project Overview: A showcase of distinct design layouts for various features using only HTML and CSS.
+- Whats the purpose - To navigate through feature pages and explore unique and creative layouts.
+- What are key components - Feature Page 1 and Feature Page 2, which display different design layouts.
+- What technology used and how it is used - The project utilizes pure HTML and CSS to create the design layouts without any additional frameworks or libraries.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- HTML & CSS: The project utilizes pure HTML and CSS to create design layouts.
+Feature Pages: There are multiple feature pages, each showcasing a unique layout.
+Navigation: Users can navigate through different feature pages to view designs.
+Ownership: The website mentions that all rights are retained by Feature Display.
+These components contribute to the overall functionality and design of the website.
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -90,31 +94,63 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
-└─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
-└─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
-└─ index.html
-└─ readme.md
-```
+┣ 📂.vscode
+┣ 📂assets
+┃ ┣ 📂css
+┃ ┃ ┗ 📜style.css
+┃ ┣ 📂img
+┃ ┃ ┣ 📜441226421_988503285592567_2443689800431697679_n__1_-removebg-preview.png
+┃ ┃ ┣ 📜fb logo.png
+┃ ┃ ┣ 📜ig logo.png
+┃ ┃ ┣ 📜nyebe_white.png
+┃ ┃ ┗ 📜twtr logo.png
+┃ ┗ 📂js
+┃   ┗ 📜script.js
+┣ 📂pages
+┃ ┣ 📂feature1
+┃ ┃ ┣ 📂assets
+┃ ┃ ┃ ┣ 📂css
+┃ ┃ ┃ ┃ ┗ 📜style.css
+┃ ┃ ┃ ┣ 📂img
+┃ ┃ ┃ ┃ ┣ 📜constructing advance bases.jpg
+┃ ┃ ┃ ┃ ┣ 📜discovering new worlds.jpg
+┃ ┃ ┃ ┃ ┣ 📜fb logo.png
+┃ ┃ ┃ ┃ ┣ 📜Galactic Explo.jpg
+┃ ┃ ┃ ┃ ┣ 📜ig logo.png
+┃ ┃ ┃ ┃ ┣ 📜join forces.jpg
+┃ ┃ ┃ ┃ ┣ 📜jv logo.png
+┃ ┃ ┃ ┃ ┗ 📜twtr logo.png
+┃ ┃ ┃ ┗ 📂js
+┃ ┃ ┃   ┗ 📜scripts.js
+┃ ┃ ┗ 📜index.html
+┃ ┗ 📂feature2
+┃   ┣ 📂assets
+┃   ┃ ┣ 📂css
+┃   ┃ ┃ ┗ 📜style.css
+┃   ┃ ┣ 📂img
+┃   ┃ ┃ ┣ 📜ai.jpg
+┃   ┃ ┃ ┣ 📜collaborative tools.jpg
+┃   ┃ ┃ ┣ 📜discovering.jpg
+┃   ┃ ┃ ┣ 📜fb logo.png
+┃   ┃ ┃ ┣ 📜ig logo.png
+┃   ┃ ┃ ┣ 📜jv logo.png
+┃   ┃ ┃ ┣ 📜sustainable tech.jpg
+┃   ┃ ┃ ┣ 📜twtr logo.png
+┃   ┃ ┃ ┗ 📜vr experience.png
+┃   ┃ ┗ 📂js
+┃   ┃   ┗ 📜scripts.js
+┃   ┗ 📜index.html
+┣ 📜index.html
+┗ 📜readme.md
+
 
 ## Resources
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|  Google Fonts | For changing the fonts of the texts | https://fonts.google.com/ | 
+| Google | Ideas | https://google.com |
+| W3schools | HTML AND CSS GUIDES | https://www.w3schools.com/html/default.asp
+
+
