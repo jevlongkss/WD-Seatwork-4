@@ -1,0 +1,234 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(var(--secondary) 30%, var(--background) 30%);
+    background-size: 2px 3px;
+    font-family: "Archivo", sans-serif;
+    color: var(--primary);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Lora', serif;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #999;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.description p {
+    font-size: 1.1rem;
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    position: relative;
+    transition: box-shadow 1s, top 1s, left 1s, background-color 0.3s, color 0.3s;
+}
+
+nav ul li:hover a {
+    background-color: #333;
+    color: white;
+    top: -10px;
+    left: 10px;
+    box-shadow: 0 0 0 -3px var(--background), 0 0 0 0 var(--green),
+      0 0 0 -3px var(--background), 0 0 0 0  var(--yellow),
+      0 0 0 -3px var(--background), 0 0 0 0  var(--orange),
+      0 0 0 -3px  var(--background), 0 0 0 0  var(--red);
+}
+
+/* Card Styles */
+.card {
+    background-color: var(--background);
+    display: inline-block;
+    min-height: 90px;
+    border: 3px solid var(--primary);
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
+        20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 
+        30px -30px 0 -3px var(--background), 30px -30px var(--orange), 
+        40px -40px 0 -3px var(--background), 40px -40px var(--red); 
+    transition: box-shadow 1s, top 1s, left 1s;
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.card:hover {
+    top: -10px;
+    left: 10px;
+    box-shadow: 0 0 0 -3px var(--background), 0 0 0 0 var(--green),
+        0 0 0 -3px var(--background), 0 0 0 0  var(--yellow),
+        0 0 0 -3px var(--background), 0 0 0 0  var(--orange),
+        0 0 0 -3px  var(--background), 0 0 0 0  var(--red);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.footer-left, .footer-center, .footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 40px;
+    transition: transform 0.3s ease; /* Smooth transition for animation */
+}
+
+/* Animation on hover */
+.footer-logo:hover {
+    transform: rotate(360deg); /* Example animation: rotate 360 degrees */
+}
+.footer-center p {
+    margin: 0;
+}
+
+.footer-right .footer-icon {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.footer-right .footer-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Feature Page Specific Styles */
+.feature-content {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Lora', serif;
+}
+
+.feature-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+
+    .description p {
+        font-size: 1rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    nav a {
+        margin-top: 1rem;
+    }
+}
+
+/* Root Variables */
+:root {
+    --primary: #555BFF;
+    --secondary: #22D2A0;
+    --background: white;
+    --green: #1FC11B;
+    --yellow: #FFD913;
+    --orange: #FF9C55;
+    --red: #FF5555;
+}
+
