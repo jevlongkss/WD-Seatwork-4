@@ -153,4 +153,4 @@ These components contribute to the overall functionality and design of the websi
 | Google | Ideas | https://google.com |
 | W3schools | HTML AND CSS GUIDES | https://www.w3schools.com/html/default.asp
 
-
+Github deploy link - https://jevlongkss.github.io/WD-Seatwork-4/
