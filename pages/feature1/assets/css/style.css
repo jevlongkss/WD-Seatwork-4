@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: 'Audiowide', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #000;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #00CFFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffb703;
+}
+
+.hero {
+    background-color: #ff3333;
+    color: #000;
+    text-align: center;
+    padding: 8em 1em;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Audiowide', 'Archivo Black', sans-serif;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8em 1em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.feature-item {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2em;
+    width: 70%;
+    border-left: 8px solid #00CFFF;
+    border-radius: 10px;
+    --m: radial-gradient(circle farthest-side at right,#000 99%,#0000) 
+        0 100%/46% 92% no-repeat,
+        radial-gradient(circle farthest-side at left ,#000 99%,#0000) 
+        100% 0/46% 92% no-repeat;
+    -webkit-mask: var(--m);
+    mask: var(--m);
+    filter: grayscale(.5);
+    transition: transform 0.3s, background-color 0.3s, -webkit-mask-position 0.3s, mask-position 0.3s, filter 0.3s linear;
+    cursor: pointer;
+}
+
+.feature-item:hover {
+    transform: scale(1.05);
+    -webkit-mask-position: 7.5% 50%,92.5% 50%;
+    mask-position: 7.5% 50%,92.5% 50%;
+    filter: grayscale(0);
+}
+
+.feature-item h2 {
+    margin-top: 0;
+    font-size: 3em;
+    color: #00CFFF;
+    font-family: 'Audiowide', sans-serif;
+}
+
+.feature-item p {
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+#galactic-exploration {
+    background-image: url('../img/Galactic\ Explo.jpg');
+    background-size: cover;
+}
+
+#discover-new-worlds {
+    background-image: url('../img/discovering\ new\ worlds.jpg');
+    background-size: cover;
+}
+
+#construct-advanced-bases {
+    background-image: url('../img/constructing\ advance\ bases.jpg');
+    background-size: cover;
+}
+
+#join-forces-with-friends {
+    background-image: url('../img/join\ forces.jpg');
+    background-size: cover;
+}
+
+footer {
+    background-color: #000;
+    color: #e0e1dd;
+    padding: 2em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-logo {
+    max-width: 100px;
+    transition: transform 0.3s ease-out; /* Transition for transform */
+}
+
+.footer-logo:hover {
+    transform: rotate(360deg); /* Rotate 360 degrees on hover */
+}
+
+.footer-icon {
+    width: 30px;
+    margin-left: 0.5em;
+    transition: transform 0.3s;
+}
+
+.footer-icon:hover {
+    transform: scale(1.2);
+}
+
+.footer-center p {
+    margin: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .feature-item {
+        width: 90%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-right {
+        margin-top: 1em;
+    }
+}
