@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/441226421_988503285592567_2443689800431697679_n__1_-removebg-preview.png" alt="Jv Logo" width="130" height="100">
+    <img src="./assets/img/jv logo.png" alt="Jv Logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 4 - Feature Display </h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Creating a Features Display Website using pure HTML and CSS. The website must include a landing page and at least two feature pages with distinct layouts. 
 </div>
 
 <br />
@@ -22,7 +22,7 @@
 jevlongkss
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 WD-Seatwork 4
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://github.com/jevlongkss/WD-Seatwork-4)
 
 ---
 
@@ -80,7 +80,7 @@ These components contribute to the overall functionality and design of the websi
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
