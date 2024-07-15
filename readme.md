@@ -142,6 +142,8 @@ These components contribute to the overall functionality and design of the websi
 ┃   ┗ 📜index.html
 ┣ 📜index.html
 ┗ 📜readme.md
+```
+
 
 
 ## Resources
