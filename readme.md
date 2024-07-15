@@ -149,8 +149,9 @@ These components contribute to the overall functionality and design of the websi
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-|  Google Fonts | For changing the fonts of the texts | https://fonts.google.com/ | 
-| Google | Ideas | https://google.com |
-| W3schools | HTML AND CSS GUIDES | https://www.w3schools.com/html/default.asp
+| Google | Icons, images, and backgrounds. | google.com |
+| Pinterest | Idea for Website designs. And images  | pinterest.com |
+| Youtube | Idea on how to create a good website | https://www.youtube.com/watch?v=D-h8L5hgW-w&t=1663s |
+| Google Fonts | Fonts | https://fonts.google.com/?preview.layout=grid |
+| Deployment Link | Published site link | https://jevlongkss.github.io/WD-Seatwork-4/ |
 
-Github deploy link - https://jevlongkss.github.io/WD-Seatwork-4/
