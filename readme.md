@@ -146,12 +146,12 @@ These components contribute to the overall functionality and design of the websi
 
 ## Resources
 
-<!-- TODO: Add References -->
+
 | Title | Purpose | Link |
 |-|-|-|
 | Google | Icons, images, and backgrounds. | google.com |
 | Pinterest | Idea for Website designs. And images  | pinterest.com |
 | Youtube | Idea on how to create a good website | https://www.youtube.com/watch?v=D-h8L5hgW-w&t=1663s |
 | Google Fonts | Fonts | https://fonts.google.com/?preview.layout=grid |
-| Deployment Link | Published site link | https://jevlongkss.github.io/WD-Seatwork-4/ |
+| Deployment Link | Published site link | https://jevlongkss.github.io/WD-Seatwork-4/|
 
